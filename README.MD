@@ -147,4 +147,4 @@ See ya!
 | Collab                        | GitHub                  |
 | ----------------------------- | ----------------------------- |
 | Ferpa                    | /ferpakras                   |
-| Cyrillo              | githubdocyrillo             |
+| Cyrillo              | /githubdocyrillo             |

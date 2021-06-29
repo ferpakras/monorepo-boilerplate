@@ -1,0 +1,23 @@
+{
+  "name": "Monorepo",
+  "version": "1.0.0",
+  "main": "index.js",
+  "private": true,
+  "license": "MIT",
+  "workspaces": [
+    "projects/*",
+    "shared/*"
+  ],
+  "scripts": {
+    "start:app1": "yarn workspace @monorepo/app1 dev",
+    "test": "jest",
+    "coverage": "jest --coverage"
+  },
+  "dependencies": {
+    "jest": "^27.0.6",
+    "jest-directory-named-resolver": "^0.3.0"
+  },
+  "devDependencies": {
+    "dotenv": "^10.0.0"
+  }
+}

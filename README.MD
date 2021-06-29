@@ -81,6 +81,7 @@ Also, here is where you will configure your scripts and each project to run dev 
 
 Make sure you have the babel presets correctly set on the /babel.config.json file.
 
+---------------------------------------
 ### /projects\* structure
 
 Here is where you will create your projects folder, for example, /app1, /app2, /app3...
@@ -126,16 +127,24 @@ _The different modes **define** different ways that **Babel** can process the "r
 
 And finally, configure your first project folder and just copy & paste this one to build another project if you will use the same structure.
 
+---------------------------------------
 ### /shared\* structure
 
 Almost the same as /projects structure, and at this moment here you won't need a next.config.js file, but you will need a .babelrc file with a rootMode configuration.
 
-Here you will need .babelrc and .babel-jest.upward.js files.
+Here you will need **.babelrc** and **.babel-jest.upward.js** files.
 
-Note that inside the /shared/components folder, the yarn workspaces didn't create a node_modules folder, that's because all your dependencies can be used from root /node_modules folder.
+Note that inside the /shared/components folder, the yarn workspaces didn't create a /node_modules folder, that's because all your dependencies can be used from root /node_modules folder.
 
+
+---------------------------------------
 That's it. Good luck and have some nice hour studying monorepo =)
 
 Le me know if you have some cool thins to share about this structure, including improvements, Ci/CD on GitLab structure and more.
 
 See ya!
+
+| Collab                        | GitHub                  |
+| ----------------------------- | ----------------------------- |
+| Ferpa                    | /ferpakras                   |
+| Cyrillo              | githubdocyrillo             |
